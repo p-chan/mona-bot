@@ -1,0 +1,33 @@
+{
+  "name": "mona-bot",
+  "version": "1.0.0",
+  "description": "A helpful slack bot",
+  "license": "MIT",
+  "author": "P-Chan <hello@0x50.io>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p1ch-jp/mona-bot.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "botkit": "^0.6.7",
+    "dotenv": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
+  "private": true
+}
