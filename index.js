@@ -14,7 +14,8 @@ if (!process.env.SLACK_TOKEN) {
 }
 
 const controller = Botkit.slackbot({
-  debug: false
+  debug: false,
+  retry: true
 })
 
 const bot = controller.spawn({ // eslint-disable-line
