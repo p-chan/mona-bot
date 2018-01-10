@@ -39,6 +39,12 @@ Set alias.
 $ now alias
 ```
 
+Delete old instance.
+
+```bash
+$ now rm https://mona-bot-xxx.now.sh
+```
+
 # License
 
 The MIT License. See [LICENSE](LICENSE).
