@@ -20,10 +20,23 @@ Add slack token.
 SLACK_TOKEN=xoxb-XXXXX
 ```
 
-Let's enjoy with mona-bot.
+Start mona-bot.
 
 ```bash
 $ npm start
+```
+
+Deploy to now.  
+If [now](https://github.com/zeit/now-cli) is not installed, run `$ npm i now -g` .
+
+```bash
+$ now --dotenv
+```
+
+Set alias.
+
+```bash
+$ now alias
 ```
 
 # License

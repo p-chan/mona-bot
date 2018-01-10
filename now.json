@@ -1,0 +1,10 @@
+{
+  "name": "mona-bot",
+  "alias": "mona-bot",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "engines": {
+    "node": "8.x.x"
+  }
+}
