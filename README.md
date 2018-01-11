@@ -26,11 +26,10 @@ Start mona-bot.
 $ npm start
 ```
 
-Deploy to now.  
-If [now](https://github.com/zeit/now-cli) is not installed, run `$ npm i now -g` .
+Deploy to now. If [now](https://github.com/zeit/now-cli) is not installed, run `$ npm i now -g` .
 
 ```bash
-$ now --dotenv
+$ now
 ```
 
 Set alias.
