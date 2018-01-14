@@ -5,6 +5,7 @@
 # Features
 
 - ping
+- gomidashi notify
 
 # Usage
 
@@ -38,10 +39,16 @@ Set alias.
 $ now alias
 ```
 
+Scaling new instance.
+
+```bash
+$ now scale NEW_INSTANCE 1
+```
+
 Delete old instance.
 
 ```bash
-$ now rm https://mona-bot-xxx.now.sh
+$ now rm OLD_INSTANCE
 ```
 
 # License
