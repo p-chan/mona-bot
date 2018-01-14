@@ -3,7 +3,6 @@ const CronJob = require('cron').CronJob
 const dotenv = require('dotenv')
 const helper = require('./helper')
 const http = require('http')
-const time = require('time')
 
 const env = process.env.NODE_ENV || 'development'
 
@@ -43,7 +42,7 @@ const unburnableNotify = new CronJob('0 0 8 1-28 * 6', async () => {
   const indexDay = Math.floor((new Date().getDate() - 1) / 7) + 1
   let output = ''
 
-  if (( indexDay % 2 ) != 0 )) {
+  if ((indexDay % 2) !== 0) {
     output = '不燃ごみを出す'
   } else {
     output = 'ペットボトルを出す'
